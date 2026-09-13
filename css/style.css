@@ -1,0 +1,41 @@
+/* Sets the background color for the webpage 9-11-26*/
+body {
+	background-color: #f2f4f7;
+}
+/* Sets the font style for all of the elements */
+* {
+  font-family: sans-serif;
+}
+/* Styles the header background & centers the heading */
+header {
+  background-color: mistyrose;
+  text-align: center;
+}
+/* Sets the font size for paragraphs */
+p {
+    font-size: 16px;
+}
+/* Adds spacing below the section titles */
+.section-title {
+    margin-bottom: 10px;
+}
+/* Adds spacing inside the information sections */
+.info-section {
+    padding: 10px;
+}
+/* Sets different background colors for the two sections-- like the music page example */
+#concerns {
+    background-color: white;
+}
+#law {
+    background-color: mistyrose;
+}
+/* Divides them into two sections side by side with space between them */
+#section_wrapper {
+    display: flex;
+    gap: 20px;
+}
+/* Provides equal space sections in the Flexbox */
+#concerns, #law {
+    flex: 1;
+}
