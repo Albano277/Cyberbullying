@@ -39,3 +39,9 @@ p {
 #concerns, #law {
     flex: 1;
 }
+/* Stacks the sections on smaller screens */
+@media (max-width: 600px) {
+    #section_wrapper {
+        flex-direction: column;
+    }
+}
