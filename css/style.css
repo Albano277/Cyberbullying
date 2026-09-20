@@ -22,7 +22,7 @@ p {
 .info-section {
     padding: 10px;
 }
-/* Sets different background colors for the two sections-- like the music page example */
+/* Sets the background color for the two sections */
 #concerns {
     background-color: mistyrose;
 }
@@ -32,4 +32,9 @@ p {
 /* Styles the section headings */
 h2 {
     color: #333333;
+}
+/* Uses Flexbox to organize the navigation links */
+nav {
+    display: flex;
+    justify-content: center;
 }
