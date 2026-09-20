@@ -9,7 +9,6 @@ body {
 /* Styles the header background & centers the heading */
 header {
   background-color: mistyrose;
-  text-align: center;
 }
 /* Sets the font size for paragraphs */
 p {
@@ -25,23 +24,12 @@ p {
 }
 /* Sets different background colors for the two sections-- like the music page example */
 #concerns {
-    background-color: white;
+    background-color: mistyrose;
 }
 #law {
     background-color: mistyrose;
 }
-/* Divides them into two sections side by side with space between them */
-#section_wrapper {
-    display: flex;
-    gap: 20px;
-}
-/* Provides equal space sections in the Flexbox */
-#concerns, #law {
-    flex: 1;
-}
-/* Stacks the sections on smaller screens */
-@media (max-width: 600px) {
-    #section_wrapper {
-        flex-direction: column;
-    }
+/* Styles the section headings */
+h2 {
+    color: #333333;
 }
