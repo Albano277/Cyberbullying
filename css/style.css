@@ -21,6 +21,7 @@ p {
 /* Adds spacing inside the information sections */
 .info-section {
     padding: 10px;
+    background-color: mistyrose;
 }
 /* Sets the background color for the two sections */
 #concerns {
